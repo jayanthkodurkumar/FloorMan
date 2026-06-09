@@ -1,6 +1,6 @@
 # FloorMan
 
-**FloorMan** is an AI-powered Q&A assistant for manufacturing workers. Ask questions in plain English and receive accurate, cited answers drawn from authoritative documents covering standard operating procedures, workplace safety, equipment maintenance, quality control, and regulatory compliance.
+**FloorMan** is an AI-powered Q&A assistant for industrial workers. Ask questions in plain English and receive accurate, cited answers drawn from authoritative documents covering standard operating procedures, workplace safety, equipment maintenance, quality control, and regulatory compliance.
 
 Backed by a RAG (Retrieval-Augmented Generation) pipeline: questions are embedded, the most relevant document chunks are retrieved from a vector database, and an LLM synthesises a grounded answer with source citations — all within a persistent, multi-session chat interface.
 
@@ -132,7 +132,7 @@ docker compose up --build
 ## Project Structure
 
 ```
-manufacturing-rag/
+FloorMan/
 ├── server/                     # FastAPI backend
 │   ├── api/
 │   │   ├── auth/               # Sign-up / sign-in
