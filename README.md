@@ -162,6 +162,39 @@ manufacturing-rag/
 
 ---
 
+## Database Schema
+
+```mermaid
+erDiagram
+    auth_users {
+        uuid id PK
+        text email
+        jsonb user_metadata
+        timestamptz created_at
+    }
+
+    chat_sessions {
+        uuid id PK
+        uuid user_id FK
+        timestamptz created_at
+    }
+
+    chat_messages {
+        uuid id PK
+        uuid session_id FK
+        text role
+        text content
+        timestamptz created_at
+    }
+
+    auth_users ||--o{ chat_sessions : "owns"
+    chat_sessions ||--o{ chat_messages : "contains"
+```
+
+> `auth_users` is managed by Supabase Auth. Row Level Security on both tables ensures users can only access their own data.
+
+---
+
 ## License
 
 MIT
