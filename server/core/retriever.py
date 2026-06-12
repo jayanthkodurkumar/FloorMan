@@ -12,7 +12,7 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 vectorstore = PineconeVectorStore(index_name=INDEX_NAME, embedding=embeddings)
 
 
-def retrieve(question: str, k: int = 3) -> list[dict]:
+def retrieve(question: str, k: int = 5) -> list[dict]:
     """
     Embed the question, search Pinecone for the top-k most similar chunks,
     and return each chunk with its content and source metadata.

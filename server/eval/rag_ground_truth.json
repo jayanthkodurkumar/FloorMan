@@ -1,0 +1,79 @@
+{
+  "ground_truth": [
+    {
+      "id": "gt_001",
+      "question": "According to EPA QA/G-6, what is a Standard Operating Procedure (SOP)?",
+      "expected_answer": "An SOP is a set of written instructions that document a routine or repetitive activity followed by an organization."
+    },
+    {
+      "id": "gt_002",
+      "question": "Why does EPA QA/G-6 describe SOPs as part of a successful quality system?",
+      "expected_answer": "Because SOPs give individuals the information needed to perform jobs properly and help ensure consistency in the quality and integrity of the product or end result."
+    },
+    {
+      "id": "gt_003",
+      "question": "What is the purpose of SOPs in EPA QA/G-6?",
+      "expected_answer": "SOPs detail recurring work processes, document how activities are performed, support consistent conformance to technical and quality-system requirements, support data quality, and help maintain quality control, quality assurance, and regulatory compliance."
+    },
+    {
+      "id": "gt_004",
+      "question": "How should SOPs be written according to EPA QA/G-6 writing style guidance?",
+      "expected_answer": "They should be concise, step-by-step, easy to read, unambiguous, not overly complicated, written in active voice and present tense, avoid the term 'you', avoid wordiness and redundancy, and use clear language; a flow chart can be used to illustrate the process."
+    },
+    {
+      "id": "gt_005",
+      "question": "Why are SOPs needed even when a published method is used?",
+      "expected_answer": "A published method may not specify how the organization actually performs the procedure. The SOP should give more detail, identify differences from the standard method, state which options the organization follows, and reduce variability between laboratories or users."
+    },
+    {
+      "id": "gt_006",
+      "question": "Who should prepare SOPs under EPA QA/G-6?",
+      "expected_answer": "SOPs should be written by individuals knowledgeable about the activity and the organization's internal structure, essentially subject-matter experts who perform the work or use the process. A team approach can be used for multi-tasked processes."
+    },
+    {
+      "id": "gt_007",
+      "question": "What does EPA QA/G-6 recommend for SOP review and approval?",
+      "expected_answer": "SOPs should be reviewed or validated by one or more people with appropriate training and experience. Drafts should ideally be tested by someone other than the original writer. Final SOPs should be approved according to the organization's Quality Management Plan or SOP-preparation procedure, often by the immediate supervisor and QA officer; signature approval indicates management review and approval."
+    },
+    {
+      "id": "gt_008",
+      "question": "When should SOPs be revised or reviewed according to EPA QA/G-6?",
+      "expected_answer": "SOPs should be updated and re-approved whenever procedures change. They should also be systematically reviewed periodically, for example every 1-2 years, to keep policies and procedures current and appropriate; SOPs for discontinued processes should be withdrawn from current files and archived."
+    },
+    {
+      "id": "gt_009",
+      "question": "In EPA QA/G-6, are checklists considered the SOP itself?",
+      "expected_answer": "No. Checklists may be used to ensure steps are followed and to document completed actions, but the checklist is not the SOP; it is part of the SOP."
+    },
+    {
+      "id": "gt_010",
+      "question": "What control notation does EPA QA/G-6 suggest for SOP pages?",
+      "expected_answer": "Each SOP page should generally include control documentation such as a short title or ID number, revision number, date, and page numbering, typically in the upper-right corner of each page after the title page."
+    },
+    {
+      "id": "gt_011",
+      "question": "What should an SOP title page contain according to EPA QA/G-6?",
+      "expected_answer": "The title page should include a clear title for the activity or procedure, SOP ID number, issue and/or revision date, applicable agency/division/branch, and signatures and signature dates of the people who prepared and approved the SOP. Electronic signatures are acceptable for computerized SOP databases."
+    },
+    {
+      "id": "gt_012",
+      "question": "What are the five general elements of a technical SOP in EPA QA/G-6?",
+      "expected_answer": "A technical SOP generally consists of a title page, table of contents, procedures section, quality assurance/quality control section, and references section."
+    },
+    {
+      "id": "gt_013",
+      "question": "What warning information should a technical SOP include under EPA QA/G-6?",
+      "expected_answer": "It should include health and safety warnings for operations that could cause personal injury or loss of life, explain consequences if the procedure is not followed or is followed incorrectly, and list cautions for activities that could damage equipment, degrade samples, or invalidate results."
+    },
+    {
+      "id": "gt_014",
+      "question": "What are the five general elements of an administrative or programmatic SOP in EPA QA/G-6?",
+      "expected_answer": "Administrative/programmatic SOPs generally consist of a title page, table of contents, purpose, procedures, quality assurance/quality control, and references."
+    },
+    {
+      "id": "gt_015",
+      "question": "Does EPA QA/G-6 endorse the example SOPs in its appendices as actual procedures?",
+      "expected_answer": "No. The example SOPs are provided only to illustrate how SOP format can be applied to technical and administrative subjects; they are not claimed to be perfect or complete, are not endorsed or recommended, and should not be cited or followed as actual procedure specifications or guidance."
+    }
+  ]
+}
