@@ -1,4 +1,5 @@
 import json
+import os
 import time
 from dotenv import load_dotenv
 from datasets import Dataset
@@ -9,7 +10,7 @@ from ragas.metrics import (
     context_recall,
     context_precision,
 )
-from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from ragas.llms import LangchainLLMWrapper
 from ragas.embeddings import LangchainEmbeddingsWrapper
@@ -22,11 +23,9 @@ load_dotenv()
 
 
 def main():
+    eval_model = os.environ.get("EVAL_MODEL", "gpt-4o-mini")
     evaluator_llm = LangchainLLMWrapper(
-        ChatGroq(
-            model="llama-3.1-8b-instant",
-            temperature=0
-        )
+        ChatOpenAI(model=eval_model, temperature=0, request_timeout=180)
     )
 
     evaluator_embeddings = LangchainEmbeddingsWrapper(
@@ -50,7 +49,7 @@ def main():
 
         print(f"[{i}/{len(entries)}] {question}")
 
-        chunks = retrieve(question, k=3)
+        chunks = retrieve(question, k=10)
         answer = generate(question, chunks)
 
         rows["user_input"].append(question)
@@ -75,8 +74,8 @@ def main():
         embeddings=evaluator_embeddings,
         run_config=RunConfig(
             max_workers=1,        # sequential, no parallel calls
-            max_wait=120,         # wait up to 120s per call
-            timeout=60,           # individual call timeout
+            max_wait=300,         # wait up to 300s per call
+            timeout=180,          # individual call timeout
         ),
         raise_exceptions=False,   # don't crash on individual failures, just score as NaN
 
@@ -85,8 +84,8 @@ def main():
     print(result)
 
     result_df = result.to_pandas()
-    result_df.to_json("eval/results.json", orient="records", indent=2)
-    result_df.to_csv("eval/results.csv", index=False)
+    result_df.to_json("eval/results4.json", orient="records", indent=2)
+    result_df.to_csv("eval/results4.csv", index=False)
 
 
 if __name__ == "__main__":

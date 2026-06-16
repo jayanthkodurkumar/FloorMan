@@ -1,12 +1,13 @@
 import os
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
+from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
 
 load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
 
-GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 MODEL_NAME = os.environ["MODEL_NAME"]
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq").lower()
 
 SYSTEM_PROMPT = """You are a knowledgeable assistant for manufacturing industry workers.
 You answer questions about standard operating procedures, workplace safety, \
@@ -23,7 +24,19 @@ Rules:
 - Never guess or fabricate information. Safety and compliance depend on accuracy.
 """
 
-llm = ChatGroq(model=MODEL_NAME, api_key=GROQ_API_KEY, temperature=0)
+def _create_llm():
+    if LLM_PROVIDER == "openai":
+        return ChatOpenAI(model=MODEL_NAME, temperature=0)
+    if LLM_PROVIDER == "groq":
+        return ChatGroq(
+            model=MODEL_NAME,
+            api_key=os.environ["GROQ_API_KEY"],
+            temperature=0,
+        )
+    raise ValueError(f"Unknown LLM_PROVIDER: {LLM_PROVIDER!r}. Use 'groq' or 'openai'.")
+
+
+llm = _create_llm()
 
 
 def build_context_block(chunks: list[dict]) -> str:
@@ -43,7 +56,7 @@ def generate(
 ) -> str:
     """
     Build a prompt from the question, retrieved chunks, and prior chat history,
-    send to Groq, and return the cited answer.
+    send to the configured LLM, and return the cited answer.
     """
     context = build_context_block(chunks)
 

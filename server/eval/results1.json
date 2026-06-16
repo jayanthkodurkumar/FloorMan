@@ -1,0 +1,212 @@
+[
+  {
+    "user_input":"According to EPA QA\/G-6, what is a Standard Operating Procedure (SOP)?",
+    "retrieved_contexts":[
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "SOPs describe both technical  and fundamental programmatic operational elements of an \norganization that would be managed under a work plan or a Quality Assurance (QA) Project Plan \n[EPA Requirements for QA Project Plans (QA\/R-5) (EPA 2001a)], or Chapter 5 of the EPA \nQuality Manual for Environmental Programs, (EPA Manual 5360 A) and under an organization\u2019s \nQuality Management Plan [EPA Requirements for Quality Management Plans (QA\/R-2) (EPA \n2001b)], or Chapter 3 of the EPA Quality Manual.  This document is designed to provide \nguidance in the preparation and use of an SOP within a quality system.  \n \n1.2 Purpose  \n \n \nSOPs detail the regularly recurring work processes that are to be conducted or followed \nwithin an or",
+      "procedure.  Next the SOP is reviewed by other staff, where possible, and then \napproved by the QA Manager (QAM) and management, such as immediate \nsupervisor.  Circulation to staff members for review\/comment is advisable prior to \nacquiring management approval. \n \n4. The SOPs should be written to describe study methods or processes in sufficient \ndetail so as to ensure the quality and integrity of the data or procedure to be followed. \n \n \n \nHalifax Environmental Laboratory, an ISO xxxxx Certified Laboratory \n 50"
+    ],
+    "response":"A Standard Operating Procedure (SOP) is a document that describes the technical and fundamental programmatic operational elements of an organization. It details the regularly recurring work processes that must be conducted or followed, and is intended to ensure the quality and integrity of the data or procedure.  \n\n[Source: g6-final.pdf, Page 6.0]",
+    "reference":"An SOP is a set of written instructions that document a routine or repetitive activity followed by an organization.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.8273634301,
+    "context_recall":1.0,
+    "context_precision":0.5
+  },
+  {
+    "user_input":"Why does EPA QA\/G-6 describe SOPs as part of a successful quality system?",
+    "retrieved_contexts":[
+      "SOPs describe both technical  and fundamental programmatic operational elements of an \norganization that would be managed under a work plan or a Quality Assurance (QA) Project Plan \n[EPA Requirements for QA Project Plans (QA\/R-5) (EPA 2001a)], or Chapter 5 of the EPA \nQuality Manual for Environmental Programs, (EPA Manual 5360 A) and under an organization\u2019s \nQuality Management Plan [EPA Requirements for Quality Management Plans (QA\/R-2) (EPA \n2001b)], or Chapter 3 of the EPA Quality Manual.  This document is designed to provide \nguidance in the preparation and use of an SOP within a quality system.  \n \n1.2 Purpose  \n \n \nSOPs detail the regularly recurring work processes that are to be conducted or followed \nwithin an or",
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1",
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6"
+    ],
+    "response":"EPA QA\/G\u20116 identifies SOPs as a core element of a successful quality system because they:\n\n* **Define the recurring work processes** that must be followed, ensuring that every activity is performed the same way.  \n* **Minimize variation** and promote quality by providing a consistent implementation of procedures, even when personnel change.  \n* **Support compliance** with EPA QA requirements (e.g., QA\/R\u20115 and QA\/R\u20112) and the EPA Quality Manual, making it easier to meet regulatory standards.  \n* **Require management review and accessibility** so that they are actually used and reinforced on the shop floor.\n\nThese functions make SOPs essential for maintaining a reliable, auditable, and high\u2011quality operation.  \n\n[Source: g6-final.pdf, Page 6.0]",
+    "reference":"Because SOPs give individuals the information needed to perform jobs properly and help ensure consistency in the quality and integrity of the product or end result.",
+    "faithfulness":0.6363636364,
+    "answer_relevancy":0.94869629,
+    "context_recall":1.0,
+    "context_precision":1.0
+  },
+  {
+    "user_input":"What is the purpose of SOPs in EPA QA\/G-6?",
+    "retrieved_contexts":[
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1",
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "SOPs describe both technical  and fundamental programmatic operational elements of an \norganization that would be managed under a work plan or a Quality Assurance (QA) Project Plan \n[EPA Requirements for QA Project Plans (QA\/R-5) (EPA 2001a)], or Chapter 5 of the EPA \nQuality Manual for Environmental Programs, (EPA Manual 5360 A) and under an organization\u2019s \nQuality Management Plan [EPA Requirements for Quality Management Plans (QA\/R-2) (EPA \n2001b)], or Chapter 3 of the EPA Quality Manual.  This document is designed to provide \nguidance in the preparation and use of an SOP within a quality system.  \n \n1.2 Purpose  \n \n \nSOPs detail the regularly recurring work processes that are to be conducted or followed \nwithin an or"
+    ],
+    "response":"The purpose of SOPs in EPA QA\/G\u20116 is to provide a clear, written description of the technical and programmatic operational elements that must be followed within a quality system. They detail the regularly recurring work processes, serve as guidance for preparing and using SOPs, and help minimize variation and promote consistent quality, thereby demonstrating compliance with EPA QA\/G\u20116 requirements.  \n\n[Source: g6-final.pdf, Page 6.0]",
+    "reference":"SOPs detail recurring work processes, document how activities are performed, support consistent conformance to technical and quality-system requirements, support data quality, and help maintain quality control, quality assurance, and regulatory compliance.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.9981865214,
+    "context_recall":0.6,
+    "context_precision":1.0
+  },
+  {
+    "user_input":"How should SOPs be written according to EPA QA\/G-6 writing style guidance?",
+    "retrieved_contexts":[
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1",
+      "requirement and command statements, such as \u201cRemove the animal from its cage\u201d). \n \n8. Follow office standard format for margins, font, and font size.   \n \n9. Official SOPs will have a colored header and footer on each page, dated signatures on \nthe front title page, and be printed on ivory colored paper with a watermark. \n \n10. Use an outline format and include alpha and\/or numeric characters to indicate levels \nof information.   \n \n11. The SOP must include the following information where applicable: \na)  Header and footer, detailing:  \n1) SOP No. (assigned by QAM and estab lished based on defined categories, \ne.g., A is used for administrative processes, and B and C are used for \nbiological chemical procedures, respectively \n2)  Page X (current page) of  Y (total number of pages)"
+    ],
+    "response":"EPA QA\/G\u20116 specifies that SOPs be written in a clear, standardized format:\n\n* Use the office standard margins, font, and font size.  \n* Include a colored header and footer on every page, with a watermark on ivory\u2011colored paper.  \n* The header\/footer must list the SOP number (assigned by QAM and based on category) and the page count (e.g., \u201cPage\u202fX of\u202fY\u201d).  \n* The front title page must have dated signatures.  \n* Use an outline format with alpha and\/or numeric characters to indicate levels of information.  \n* The SOP must be readily accessible in the work area (hard copy or electronic) and reviewed\/re\u2011enforced by management.  \n\nThese elements ensure the SOP is readable, traceable, and enforceable.  \n\n[Source: g6-final.pdf, Page 56.0]  \n[Source: g6-final.pdf, Page 6.0]",
+    "reference":"They should be concise, step-by-step, easy to read, unambiguous, not overly complicated, written in active voice and present tense, avoid the term 'you', avoid wordiness and redundancy, and use clear language; a flow chart can be used to illustrate the process.",
+    "faithfulness":0.8181818182,
+    "answer_relevancy":0.8586207791,
+    "context_recall":0.5,
+    "context_precision":0.8333333333
+  },
+  {
+    "user_input":"Why are SOPs needed even when a published method is used?",
+    "retrieved_contexts":[
+      "SOPs are needed even when published methods  are being utilized.  For example, if an \nSOP is written for a standard analytical method, the SOP should specify the procedures to be \nfollowed in greater detail than appear in the published method.  It also should detail how, if at \nall, the SOP differs from the standard method and any options that this organization follows.  As \nnoted in ASTM D5172-91 (2004), Standard Guide for Documenting the Standard Operating \nProcedures Used for the Analysis of Water, \u201ca significant part of the variability of results \ngenerated by different laboratories analyzing the same samples and citing the same general \nreference is due to differences in the way the analytical test methods and procedures are actually",
+      "and governmental requirements and can be used as a part of a personnel training program, since \nthey should provide detailed work instructions.  It minimizes opportunities for \nmiscommunication and can address safety concerns.  When historical data are being evaluated \nfor current use, SOPs can also be valuable for reconstructing project activities when no other \nreferences are available.  In addition, SOPs are frequently used as checklists by inspectors when \nauditing procedures.  Ultimately, the benefits of a valid SOP are reduced work effort, along with \nimproved comparability, credibility, and legal defensibility.  \n \n SOPs are needed even when published methods  are being utilized.  For example, if an",
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1"
+    ],
+    "response":"SOPs are required even when a published method is used because they:\n\n* give detailed, step\u2011by\u2011step work instructions that go beyond the general method, reducing miscommunication and safety risks  \n* document any deviations or options the organization follows, so the method\u2019s application is clear and consistent  \n* provide a reference that can be used for training, audits, and legal defensibility, and help reconstruct activities when historical data are reviewed  \n\nThese benefits help minimize variation, improve quality, and ensure compliance.  \n\n[Source: g6-final.pdf, Page 7.0]  \n[Source: g6-final.pdf, Page 6.0]",
+    "reference":"A published method may not specify how the organization actually performs the procedure. The SOP should give more detail, identify differences from the standard method, state which options the organization follows, and reduce variability between laboratories or users.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.9928475815,
+    "context_recall":1.0,
+    "context_precision":1.0
+  },
+  {
+    "user_input":"Who should prepare SOPs under EPA QA\/G-6?",
+    "retrieved_contexts":[
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1",
+      "SOPs describe both technical  and fundamental programmatic operational elements of an \norganization that would be managed under a work plan or a Quality Assurance (QA) Project Plan \n[EPA Requirements for QA Project Plans (QA\/R-5) (EPA 2001a)], or Chapter 5 of the EPA \nQuality Manual for Environmental Programs, (EPA Manual 5360 A) and under an organization\u2019s \nQuality Management Plan [EPA Requirements for Quality Management Plans (QA\/R-2) (EPA \n2001b)], or Chapter 3 of the EPA Quality Manual.  This document is designed to provide \nguidance in the preparation and use of an SOP within a quality system.  \n \n1.2 Purpose  \n \n \nSOPs detail the regularly recurring work processes that are to be conducted or followed \nwithin an or"
+    ],
+    "response":"Under EPA QA\/G\u20116, the organization itself is responsible for preparing the SOPs\u2014usually the QA team or the department that performs the work.  Management, especially the direct supervisor, then reviews and enforces the SOPs to ensure they are followed.  \n\n[Source: g6-final.pdf, Page\u202f1.0]  \n[Source: g6-final.pdf, Page\u202f6.0]",
+    "reference":"SOPs should be written by individuals knowledgeable about the activity and the organization's internal structure, essentially subject-matter experts who perform the work or use the process. A team approach can be used for multi-tasked processes.",
+    "faithfulness":0.5,
+    "answer_relevancy":0.8815473598,
+    "context_recall":0.5,
+    "context_precision":1.0
+  },
+  {
+    "user_input":"What does EPA QA\/G-6 recommend for SOP review and approval?",
+    "retrieved_contexts":[
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1",
+      "g. Criteria, checklists, or other standards that are to be applied during the \nprocedure such as citing this document as guidance for reviewing SOPs), and  \n \n h. Records Management (specifically, e.g., as forms to be used and locations of \nfiles).  \n \n4. Quality Control and Quality Assurance Section - Describe any control steps and \nprovisions for review or oversight prior to acceptance of the product or deliverable.  This \ncan include test plans such as verification and validation plans for software or running a \n\u201cspell-check\u201d program on the finished document.  \n \n5. Reference Section - Cite all references noted in the body of the SOP.  A copy of any \ncited references not readily available should be attached to the SOP.  \nEPA QA\/G-6  April 2007 11"
+    ],
+    "response":"EPA\u202fQA\/G\u20116 recommends that SOPs be **reviewed and re\u2011enforced by management, preferably the direct supervisor**. Current copies should also be readily accessible in the work area (hard copy or electronic) so that the SOP can be followed consistently.  \n\n[Source: g6-final.pdf, Page\u202f6.0]",
+    "reference":"SOPs should be reviewed or validated by one or more people with appropriate training and experience. Drafts should ideally be tested by someone other than the original writer. Final SOPs should be approved according to the organization's Quality Management Plan or SOP-preparation procedure, often by the immediate supervisor and QA officer; signature approval indicates management review and approval.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.9279207129,
+    "context_recall":0.6666666667,
+    "context_precision":0.5833333333
+  },
+  {
+    "user_input":"When should SOPs be revised or reviewed according to EPA QA\/G-6?",
+    "retrieved_contexts":[
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1",
+      "SOPs need to remain current to be useful.  Therefore, whenever procedures are changed, \nSOPs should be updated and re-approved.  If desired, modify only the pertinent section of an \nSOP and indicate the change date\/revision number for that section in the Table of Contents and \nthe document control notation.  \n \n SOPs should be also systematically reviewed on a periodic basis, e.g. every 1-2 years, to \nensure that the policies and procedures remain current and appropriate, or to determine whether \nthe SOPs are even needed.  The review date should be added to each SOP that has been \nreviewed.  If an SOP describes a process that is no longer followed, it should be withdrawn from \nthe current file and archived."
+    ],
+    "response":"SOPs should be **revised** whenever a procedure changes, and they must be **re\u2011approved** after any update.  \nThey should also be **systematically reviewed** on a periodic basis\u2014typically every **1\u20132 years**\u2014to confirm that the policies and procedures remain current and relevant. If an SOP no longer reflects an active process, it should be withdrawn from the current file and archived.  \n\n[Source: g6-final.pdf, Page 8.0]",
+    "reference":"SOPs should be updated and re-approved whenever procedures change. They should also be systematically reviewed periodically, for example every 1-2 years, to keep policies and procedures current and appropriate; SOPs for discontinued processes should be withdrawn from current files and archived.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.801394587,
+    "context_recall":1.0,
+    "context_precision":0.3333333333
+  },
+  {
+    "user_input":"In EPA QA\/G-6, are checklists considered the SOP itself?",
+    "retrieved_contexts":[
+      "g. Criteria, checklists, or other standards that are to be applied during the \nprocedure such as citing this document as guidance for reviewing SOPs), and  \n \n h. Records Management (specifically, e.g., as forms to be used and locations of \nfiles).  \n \n4. Quality Control and Quality Assurance Section - Describe any control steps and \nprovisions for review or oversight prior to acceptance of the product or deliverable.  This \ncan include test plans such as verification and validation plans for software or running a \n\u201cspell-check\u201d program on the finished document.  \n \n5. Reference Section - Cite all references noted in the body of the SOP.  A copy of any \ncited references not readily available should be attached to the SOP.  \nEPA QA\/G-6  April 2007 11",
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1"
+    ],
+    "response":"No. In EPA\u202fQA\/G\u20116, checklists are listed as \u201ccriteria, checklists, or other standards that are to be applied during the procedure\u201d \u2013 they are components of an SOP, not the SOP itself.  \n[Source: g6-final.pdf, Page\u202f16.0]",
+    "reference":"No. Checklists may be used to ensure steps are followed and to document completed actions, but the checklist is not the SOP; it is part of the SOP.",
+    "faithfulness":0.3333333333,
+    "answer_relevancy":0.9629194332,
+    "context_recall":0.0,
+    "context_precision":0.9999999999
+  },
+  {
+    "user_input":"What control notation does EPA QA\/G-6 suggest for SOP pages?",
+    "retrieved_contexts":[
+      "requirement and command statements, such as \u201cRemove the animal from its cage\u201d). \n \n8. Follow office standard format for margins, font, and font size.   \n \n9. Official SOPs will have a colored header and footer on each page, dated signatures on \nthe front title page, and be printed on ivory colored paper with a watermark. \n \n10. Use an outline format and include alpha and\/or numeric characters to indicate levels \nof information.   \n \n11. The SOP must include the following information where applicable: \na)  Header and footer, detailing:  \n1) SOP No. (assigned by QAM and estab lished based on defined categories, \ne.g., A is used for administrative processes, and B and C are used for \nbiological chemical procedures, respectively \n2)  Page X (current page) of  Y (total number of pages)",
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "More information on text is contained in Section 4.1 for Technical SOPs and Section 4.2 \nfor Administrative SOPs.  \n \nEPA QA\/G-6  April 2007 7"
+    ],
+    "response":"EPA\u202fQA\/G\u20116 recommends that each SOP page include a header\/footer that shows the page number in the format **\u201cPage\u202fX\u202fof\u202fY\u201d** (where\u202fX is the current page and\u202fY is the total number of pages). This control notation is part of the required header\/footer information.  \n\n[Source: g6-final.pdf, Page\u202f56.0]",
+    "reference":"Each SOP page should generally include control documentation such as a short title or ID number, revision number, date, and page numbering, typically in the upper-right corner of each page after the title page.",
+    "faithfulness":0.8,
+    "answer_relevancy":0.6722819916,
+    "context_recall":0.0,
+    "context_precision":1.0
+  },
+  {
+    "user_input":"What should an SOP title page contain according to EPA QA\/G-6?",
+    "retrieved_contexts":[
+      "More information on text is contained in Section 4.1 for Technical SOPs and Section 4.2 \nfor Administrative SOPs.  \n \nEPA QA\/G-6  April 2007 7",
+      "requirement and command statements, such as \u201cRemove the animal from its cage\u201d). \n \n8. Follow office standard format for margins, font, and font size.   \n \n9. Official SOPs will have a colored header and footer on each page, dated signatures on \nthe front title page, and be printed on ivory colored paper with a watermark. \n \n10. Use an outline format and include alpha and\/or numeric characters to indicate levels \nof information.   \n \n11. The SOP must include the following information where applicable: \na)  Header and footer, detailing:  \n1) SOP No. (assigned by QAM and estab lished based on defined categories, \ne.g., A is used for administrative processes, and B and C are used for \nbiological chemical procedures, respectively \n2)  Page X (current page) of  Y (total number of pages)",
+      "3.0 SOP GENERAL FORMAT  \n \n SOPs should be organized to ensure ease and efficiency in use and to be specific to the \norganization which develops it.  There is no one \u201ccorrect\u201d format; and internal formatting will \nvary with each organization and with the type of SOP being written.  Where possible break the \ninformation into a series of logical steps to avoid a long list.  The level of detail provided in the \nSOP may differ based on, e.g., whether the process is critical, the frequency of that procedure \nbeing followed, the number of people who will use the SOP, and where training is not routinely \navailable.  A generalized format is discussed next.  \n \n3.1 Title Page  \n \n The first page or cover page of each SOP s hould contain the following information: a title"
+    ],
+    "response":"According to EPA QA\/G\u20116, the SOP title (cover) page must include:\n\n- The SOP title  \n- A header and footer that show the SOP\u202fNo. and page numbering (e.g., \u201cPage\u202f1\u202fof\u202fX\u201d)  \n- Dated signatures (author and approver) on the front page  \n- The document printed on ivory\u2011colored paper with a watermark  \n\nThese elements are specified in the SOP general format and the official SOP requirements.  \n\n[Source: g6\u2011final.pdf, Page\u202f11.0]  \n[Source: g6\u2011final.pdf, Page\u202f56.0]",
+    "reference":"The title page should include a clear title for the activity or procedure, SOP ID number, issue and\/or revision date, applicable agency\/division\/branch, and signatures and signature dates of the people who prepared and approved the SOP. Electronic signatures are acceptable for computerized SOP databases.",
+    "faithfulness":0.8333333333,
+    "answer_relevancy":0.888843962,
+    "context_recall":0.5,
+    "context_precision":0.3333333333
+  },
+  {
+    "user_input":"What are the five general elements of a technical SOP in EPA QA\/G-6?",
+    "retrieved_contexts":[
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "More information on text is contained in Section 4.1 for Technical SOPs and Section 4.2 \nfor Administrative SOPs.  \n \nEPA QA\/G-6  April 2007 7",
+      "SOPs describe both technical  and fundamental programmatic operational elements of an \norganization that would be managed under a work plan or a Quality Assurance (QA) Project Plan \n[EPA Requirements for QA Project Plans (QA\/R-5) (EPA 2001a)], or Chapter 5 of the EPA \nQuality Manual for Environmental Programs, (EPA Manual 5360 A) and under an organization\u2019s \nQuality Management Plan [EPA Requirements for Quality Management Plans (QA\/R-2) (EPA \n2001b)], or Chapter 3 of the EPA Quality Manual.  This document is designed to provide \nguidance in the preparation and use of an SOP within a quality system.  \n \n1.2 Purpose  \n \n \nSOPs detail the regularly recurring work processes that are to be conducted or followed \nwithin an or"
+    ],
+    "response":"I don't have enough information in the provided documents to answer this question.",
+    "reference":"A technical SOP generally consists of a title page, table of contents, procedures section, quality assurance\/quality control section, and references section.",
+    "faithfulness":0.0,
+    "answer_relevancy":0.0,
+    "context_recall":0.0,
+    "context_precision":0.0
+  },
+  {
+    "user_input":"What warning information should a technical SOP include under EPA QA\/G-6?",
+    "retrieved_contexts":[
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "More information on text is contained in Section 4.1 for Technical SOPs and Section 4.2 \nfor Administrative SOPs.  \n \nEPA QA\/G-6  April 2007 7",
+      "g. Criteria, checklists, or other standards that are to be applied during the \nprocedure such as citing this document as guidance for reviewing SOPs), and  \n \n h. Records Management (specifically, e.g., as forms to be used and locations of \nfiles).  \n \n4. Quality Control and Quality Assurance Section - Describe any control steps and \nprovisions for review or oversight prior to acceptance of the product or deliverable.  This \ncan include test plans such as verification and validation plans for software or running a \n\u201cspell-check\u201d program on the finished document.  \n \n5. Reference Section - Cite all references noted in the body of the SOP.  A copy of any \ncited references not readily available should be attached to the SOP.  \nEPA QA\/G-6  April 2007 11"
+    ],
+    "response":"I don't have enough information in the provided documents to answer this question.",
+    "reference":"It should include health and safety warnings for operations that could cause personal injury or loss of life, explain consequences if the procedure is not followed or is followed incorrectly, and list cautions for activities that could damage equipment, degrade samples, or invalidate results.",
+    "faithfulness":0.0,
+    "answer_relevancy":0.0,
+    "context_recall":0.0,
+    "context_precision":0.0
+  },
+  {
+    "user_input":"What are the five general elements of an administrative or programmatic SOP in EPA QA\/G-6?",
+    "retrieved_contexts":[
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "SOPs describe both technical  and fundamental programmatic operational elements of an \norganization that would be managed under a work plan or a Quality Assurance (QA) Project Plan \n[EPA Requirements for QA Project Plans (QA\/R-5) (EPA 2001a)], or Chapter 5 of the EPA \nQuality Manual for Environmental Programs, (EPA Manual 5360 A) and under an organization\u2019s \nQuality Management Plan [EPA Requirements for Quality Management Plans (QA\/R-2) (EPA \n2001b)], or Chapter 3 of the EPA Quality Manual.  This document is designed to provide \nguidance in the preparation and use of an SOP within a quality system.  \n \n1.2 Purpose  \n \n \nSOPs detail the regularly recurring work processes that are to be conducted or followed \nwithin an or",
+      "More information on text is contained in Section 4.1 for Technical SOPs and Section 4.2 \nfor Administrative SOPs.  \n \nEPA QA\/G-6  April 2007 7"
+    ],
+    "response":"I don't have enough information in the provided documents to answer this question.",
+    "reference":"Administrative\/programmatic SOPs generally consist of a title page, table of contents, purpose, procedures, quality assurance\/quality control, and references.",
+    "faithfulness":0.0,
+    "answer_relevancy":0.0,
+    "context_recall":0.0,
+    "context_precision":0.0
+  },
+  {
+    "user_input":"Does EPA QA\/G-6 endorse the example SOPs in its appendices as actual procedures?",
+    "retrieved_contexts":[
+      "5.0  EXAMPLE SOPS  \n \n Example SOPS can be found in Appendices A- E.  These examples are not purported to \nbe perfect or complete in content, nor is their use endorsed or recommended.  They are provided \nmerely to illustrate application of SOP format to technical and administrative subjects.  They \nshould not be cited or followed as actual procedure specification or guidance.  Attachments cited \nby the individual examples are not included. \nEPA QA\/G-6  April 2007 12",
+      "United States   Office  of Environmental   \n                Environmental Protection  Information    EPA\/600\/B-07\/001  \n                Agency    Washington, DC 20460   April 2007 \n \nGuidance for Preparing \nStandard Operating \nProcedures (SOPs)  \n \n EPA QA\/G-6",
+      "If not written correctly, SOPs are of limited value.  In additio n, the best written SOPs will \nfail if they are not followed.  Therefore, the use of SOPs needs to be reviewed and re-enforced by \nmanagement, preferably the direct supervisor.  Current copies of the SOPs also need to be \nreadily accessible for reference in the work areas of those individuals actually performing the \nactivity, either in hard copy or electronic format, otherwise SOPs serve little purpose.  \n \n1.3 Benefits \n \n \n \nThe development and use of SOPs minimizes variation and promotes quality through \nconsistent implem\nentation of a process or procedure within the organization, even if there are \ntemporary or permanent personnel changes.  SOPs can indicate compliance with organizational \nEPA QA\/G-6  April 2007 1"
+    ],
+    "response":"No. EPA QA\/G\u20116 states that the example SOPs in Appendices\u202fA\u2011E are only illustrative and are **not** endorsed or recommended as actual procedures. They should not be cited or followed as real procedure specifications or guidance.  \n\n[Source: g6-final.pdf, Page\u202f17.0]",
+    "reference":"No. The example SOPs are provided only to illustrate how SOP format can be applied to technical and administrative subjects; they are not claimed to be perfect or complete, are not endorsed or recommended, and should not be cited or followed as actual procedure specifications or guidance.",
+    "faithfulness":1.0,
+    "answer_relevancy":0.8876720075,
+    "context_recall":1.0,
+    "context_precision":0.9999999999
+  }
+]
