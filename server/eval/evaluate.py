@@ -2,6 +2,8 @@ import json
 import os
 import time
 from dotenv import load_dotenv
+
+load_dotenv()
 from datasets import Dataset
 from ragas import RunConfig, evaluate
 from ragas.metrics import (
@@ -10,16 +12,12 @@ from ragas.metrics import (
     context_recall,
     context_precision,
 )
-from langchain_openai import ChatOpenAI
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from ragas.llms import LangchainLLMWrapper
 from ragas.embeddings import LangchainEmbeddingsWrapper
 
 from core.generator import generate
 from core.retriever import retrieve
-
-
-load_dotenv()
 
 
 def main():
@@ -29,8 +27,7 @@ def main():
     )
 
     evaluator_embeddings = LangchainEmbeddingsWrapper(
-        HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-MiniLM-L6-v2")
+        OpenAIEmbeddings(model="text-embedding-3-small")
     )
 
     with open("eval/rag_ground_truth.json") as f:
@@ -49,7 +46,7 @@ def main():
 
         print(f"[{i}/{len(entries)}] {question}")
 
-        chunks = retrieve(question, k=10)
+        chunks = retrieve(question, k=30, n = 10)
         answer = generate(question, chunks)
 
         rows["user_input"].append(question)
@@ -84,8 +81,8 @@ def main():
     print(result)
 
     result_df = result.to_pandas()
-    result_df.to_json("eval/results5.json", orient="records", indent=2)
-    result_df.to_csv("eval/results5.csv", index=False)
+    result_df.to_json("eval/results4.json", orient="records", indent=2)
+    result_df.to_csv("eval/results4.csv", index=False)
 
 
 if __name__ == "__main__":

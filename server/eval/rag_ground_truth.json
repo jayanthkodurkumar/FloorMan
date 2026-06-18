@@ -74,6 +74,181 @@
       "id": "gt_015",
       "question": "Does EPA QA/G-6 endorse the example SOPs in its appendices as actual procedures?",
       "expected_answer": "No. The example SOPs are provided only to illustrate how SOP format can be applied to technical and administrative subjects; they are not claimed to be perfect or complete, are not endorsed or recommended, and should not be cited or followed as actual procedure specifications or guidance."
+    },
+    {
+      "id": "gt_016",
+      "question": "What is the purpose of lockout/tagout procedures according to OSHA regulations for manufacturing?",
+      "expected_answer": "Lockout/tagout procedures ensure that equipment undergoing maintenance or repairs cannot be operated by placing a lockout device at the power source to prevent an unfamiliar individual from turning the machinery on. This applies even for short maintenance intervals."
+    },
+    {
+      "id": "gt_017",
+      "question": "Who is allowed to remove a tagout tag in a manufacturing facility under OSHA regulations?",
+      "expected_answer": "Only the original individual who placed the tag or a responsible party is allowed to remove it. If a responsible party removes the tag, a complete inspection must be performed to ensure that no one is working on the equipment at the time it is re-energized."
+    },
+    {
+      "id": "gt_018",
+      "question": "What defines a permit-required confined space under OSHA regulations for manufacturing?",
+      "expected_answer": "A permit-required confined space has one or more of the following: contains or has potential to contain a hazardous atmosphere; contains material that could engulf an entrant; has walls that converge or floors that slope into a smaller area that could trap or asphyxiate an entrant; or contains any other recognized safety or health hazard such as unguarded machinery, exposed live wires, or heat stress."
+    },
+    {
+      "id": "gt_019",
+      "question": "What are the two protective functions of machine guards according to OSHA manufacturing regulations?",
+      "expected_answer": "Machine guards serve two functions: they prevent the operator or another individual from becoming caught in the machinery, and they prevent debris or sparks from flying out of the equipment and injuring the operator or bystanders."
+    },
+    {
+      "id": "gt_020",
+      "question": "What are the PPE requirements for foot protection in a manufacturing environment under OSHA?",
+      "expected_answer": "Steel-toe boots are required in any environment where heavy materials may be dropped or an individual's foot could be run over by machinery. Steel or plastic caps can be worn over regular shoes as long as the materials meet ANSI standards Z41.1-1991 or Z41-1999. The requirement applies only to individuals in the manufacturing portion of the facility."
+    },
+    {
+      "id": "gt_021",
+      "question": "At what noise level does OSHA require ear protection for manufacturing workers?",
+      "expected_answer": "Ear protection is required for any worker exposed to 85 decibels or more over an eight-hour day. If noise levels reach 90 decibels, OSHA requires the employer to reduce the noise or reduce the time the worker is exposed to that noise level."
+    },
+    {
+      "id": "gt_022",
+      "question": "What color coding does OSHA require for warning signs in manufacturing facilities?",
+      "expected_answer": "Danger signs must include the color red. Warning or caution signs must have a yellow background. General safety signs are white with green lettering. Pictorial identification and color codes should be used for universal understanding."
+    },
+    {
+      "id": "gt_023",
+      "question": "What are the penalties for willful OSHA violations in manufacturing?",
+      "expected_answer": "Willful violations can result in fines up to $500,000 and could include a jail term. Citations may be issued for any safety or health violation, as well as for falsifying documents or denying an inspector access to a facility."
+    },
+    {
+      "id": "gt_024",
+      "question": "What are the six core elements of OSHA's Safety and Health Program Management Guidelines?",
+      "expected_answer": "The six core elements are: Management Leadership, Worker Participation, Hazard Identification and Assessment, Hazard Prevention and Control, Education and Training, and Program Evaluation and Improvement. A seventh element covers Coordination and Communication on Multiemployer Worksites."
+    },
+    {
+      "id": "gt_025",
+      "question": "What is the proactive approach described in OSHA's Safety and Health Program Management Guidelines?",
+      "expected_answer": "The guidelines use a proactive approach where hazards are found and fixed before they cause injury or illness, rather than the traditional reactive approach of addressing problems only after a worker is injured, a new regulation is published, or an inspection finds a problem."
+    },
+    {
+      "id": "gt_026",
+      "question": "What does management leadership mean in the context of OSHA's Safety and Health Program Management Guidelines?",
+      "expected_answer": "Management leadership means that business owners, CEOs, managers, and supervisors at all levels are fully committed to continuously improving workplace safety and health, make worker safety a core organizational value, provide sufficient resources to implement the program, visibly demonstrate their commitment, and set an example through their own actions."
+    },
+    {
+      "id": "gt_027",
+      "question": "What does OSHA's Safety and Health Program Management Guidelines say about worker participation?",
+      "expected_answer": "Worker participation means all workers have opportunities to participate throughout program design and implementation, have access to information they need to participate effectively, and are encouraged to report safety and health concerns. Management must also identify and eliminate barriers to worker participation."
+    },
+    {
+      "id": "gt_028",
+      "question": "What is the hierarchy of controls for hazard prevention according to OSHA's Safety and Health Program Management Guidelines?",
+      "expected_answer": "The hierarchy emphasizes engineering solutions first (including elimination or substitution), followed by safe work practices, administrative controls, and finally personal protective equipment (PPE). A combination of control options should be used when no single method fully protects workers."
+    },
+    {
+      "id": "gt_029",
+      "question": "What are leading and lagging indicators in the context of OSHA's safety program evaluation guidelines?",
+      "expected_answer": "Lagging indicators track worker exposures and injuries that have already occurred, such as number and severity of injuries and workers' compensation costs. Leading indicators reflect the potential for injuries that have not yet occurred, such as level of worker participation, number of hazards reported, management walkthroughs, and training completion rates."
+    },
+    {
+      "id": "gt_030",
+      "question": "How often should a safety and health program be evaluated according to OSHA's guidelines?",
+      "expected_answer": "At least once a year, the entire program should be evaluated to ensure it operates as intended, controls identified hazards effectively, and drives progress toward established safety and health goals and objectives."
+    },
+    {
+      "id": "gt_031",
+      "question": "What is the purpose of the NIST Quality Management System for Measurement Services?",
+      "expected_answer": "The NIST QMS comprises policies and procedures that NIST follows in the pursuit of performance excellence for providing calibration and certified reference material services. It ensures measurement services meet customer needs and seeks to anticipate those needs through continuous improvement."
+    },
+    {
+      "id": "gt_032",
+      "question": "What international standard is the NIST Quality Management System aligned with?",
+      "expected_answer": "The NIST QMS is aligned with the international standard ISO/IEC 17025 and the relevant requirements of ISO Guide 34 as they apply to Standard Reference Materials and related services."
+    },
+    {
+      "id": "gt_033",
+      "question": "What is a Certified Reference Material (CRM) as defined in the NIST Quality Manual?",
+      "expected_answer": "A Certified Reference Material is a Reference Material characterized by a metrologically valid procedure for one or more specified properties, accompanied by a certificate that provides the value of the specified property, its associated uncertainty, and a statement of metrological traceability."
+    },
+    {
+      "id": "gt_034",
+      "question": "How is the NIST Quality Manual for Measurement Services organized in terms of levels?",
+      "expected_answer": "The NIST QM is organized in multiple levels. The first level (NIST-QM-I) contains NIST-wide policies and procedures from executive leadership. Subsequent levels (NIST-QM-xx series) contain policies and procedures established by each Division or Technical Operating Unit to meet its specific technical needs."
+    },
+    {
+      "id": "gt_035",
+      "question": "What are the two types of NIST measurement services covered under the NIST Quality Management System?",
+      "expected_answer": "The two types of measurement services are calibration services (technical functions performed on instruments and devices to link customer equipment to national and international measurement standards) and reference material services (including Standard Reference Materials, Reference Materials, and NIST Traceable Reference Materials)."
+    },
+    {
+      "id": "gt_036",
+      "question": "What does the NIST Quality Manual say about corrective and preventive actions?",
+      "expected_answer": "The NIST QMS addresses non-conformity and corrective actions, customer feedback and concerns, and preventive actions. When non-conformities are identified, corrective actions are taken. Customer feedback is collected and used to improve services. Preventive actions are taken to eliminate the causes of potential non-conformities."
+    },
+    {
+      "id": "gt_037",
+      "question": "What is reactive maintenance as described in the O&M Best Practices Guide?",
+      "expected_answer": "Reactive maintenance is the 'run it till it breaks' maintenance mode where no actions or efforts are taken to maintain equipment as the designer originally intended. It results in increased costs due to unplanned downtime, higher labor costs, possible secondary equipment damage, and inefficient use of staff resources. Studies indicate more than 55% of maintenance in the US is still reactive."
+    },
+    {
+      "id": "gt_038",
+      "question": "What is preventive maintenance and what cost savings does the O&M Best Practices Guide associate with it?",
+      "expected_answer": "Preventive maintenance is defined as actions performed on a time- or machine-run-based schedule that detect, preclude, or mitigate degradation of a component or system to sustain or extend its useful life. Studies indicate it can save 12% to 18% on average compared to a purely reactive maintenance program."
+    },
+    {
+      "id": "gt_039",
+      "question": "How does predictive maintenance differ from preventive maintenance according to the O&M Best Practices Guide?",
+      "expected_answer": "Predictive maintenance bases maintenance need on the actual condition of the machine rather than on a preset time-based schedule. Preventive maintenance is time-based, while predictive maintenance uses measurements to detect the onset of system degradation and allows causal stressors to be eliminated before significant deterioration occurs."
+    },
+    {
+      "id": "gt_040",
+      "question": "What savings does the O&M Best Practices Guide associate with a properly functioning predictive maintenance program?",
+      "expected_answer": "A properly functioning predictive maintenance program can provide savings of 8% to 12% over a program using preventive maintenance alone. Industrial average savings include: 10 times return on investment, 25-30% reduction in maintenance costs, 70-75% elimination of breakdowns, 35-45% reduction in downtime, and 20-25% increase in production."
+    },
+    {
+      "id": "gt_041",
+      "question": "What is Reliability Centered Maintenance (RCM) according to the O&M Best Practices Guide?",
+      "expected_answer": "RCM is a process used to determine the maintenance requirements of any physical asset in its operating context. It recognizes that not all equipment is of equal importance, that different equipment has different failure probabilities, and that resources are limited. RCM is a systematic approach to match equipment needs with available resources to achieve high facility reliability and cost-effectiveness."
+    },
+    {
+      "id": "gt_042",
+      "question": "What is the bathtub curve in the context of equipment maintenance described in the O&M Best Practices Guide?",
+      "expected_answer": "The bathtub curve represents the failure rate of a component population over time. It has three periods: the infant mortality period with high initial failure rate linked to poor design or installation; the useful life period with a nearly constant failure rate; and the wear-out period characterized by a rapidly increasing failure rate as equipment reaches the end of its design life."
+    },
+    {
+      "id": "gt_043",
+      "question": "What maintenance program breakdown does the O&M Best Practices Guide recommend for top-performing facilities using RCM?",
+      "expected_answer": "Top-performing facilities using RCM have less than 10% reactive maintenance, 25% to 35% preventive maintenance, and 45% to 55% predictive maintenance."
+    },
+    {
+      "id": "gt_044",
+      "question": "What should be included in a tagout tag according to OSHA lockout/tagout regulations for manufacturing?",
+      "expected_answer": "The tag or lock should include information regarding who placed the tag and the time of placement."
+    },
+    {
+      "id": "gt_045",
+      "question": "What does OSHA require regarding glove protection for manufacturing workers?",
+      "expected_answer": "Gloves must be provided to workers when their hands may be exposed to cuts, abrasions, or puncture wounds. Exposure to extreme temperatures, chemical or thermal burns, or harmful substances also requires hand protection. The type of protection required depends on the type of danger presented."
+    },
+    {
+      "id": "gt_046",
+      "question": "What does OSHA's Safety and Health Program Management Guidelines say about incident investigation purpose?",
+      "expected_answer": "The purpose of investigation must always be to identify the root causes of the incident or concern to prevent future occurrence. If it is perceived that the purpose is to assign blame and assess punishment, the investigation will not result in complete, objective information."
+    },
+    {
+      "id": "gt_047",
+      "question": "What are OSHA's reporting requirements for serious workplace accidents according to the Safety and Health Program Management Guidelines?",
+      "expected_answer": "OSHA must be notified within eight hours of a work-related fatality and within 24 hours of an amputation, eye loss, or in-patient hospitalization of one or more employees."
+    },
+    {
+      "id": "gt_048",
+      "question": "What does the NIST Quality Manual require regarding signatory authority for calibration reports?",
+      "expected_answer": "NIST calibration reports and reference material certificates must be signed by authorized signatories. SRM certificates bear the logo of the U.S. Department of Commerce, the name of NIST as the certifying body, and the name and title of the NIST officer authorized to accept responsibility for its contents."
+    },
+    {
+      "id": "gt_049",
+      "question": "What are the first steps to initiate a Reliability Centered Maintenance program according to the O&M Best Practices Guide?",
+      "expected_answer": "The first steps include: develop a master equipment list identifying all equipment in the facility, then prioritize the listed components based on importance or criticality to operation, process, or mission."
+    },
+    {
+      "id": "gt_050",
+      "question": "What does OSHA's Safety and Health Program Management Guidelines say about safety and health training for temporary workers at multiemployer worksites?",
+      "expected_answer": "Temporary and contract workers must receive relevant general and hazard-specific training before starting their assignment. This training explains the host employer and contractor responsibilities for safety and health, procedures for reporting hazards and injuries, and the workers' right to be protected against discrimination or retaliation for exercising safety and health rights."
     }
   ]
 }

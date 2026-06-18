@@ -2,48 +2,41 @@ import os
 from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_pinecone import PineconeVectorStore
+from sentence_transformers import CrossEncoder
 
 load_dotenv(os.path.join(os.path.dirname(__file__), "..", ".env"))
 
 INDEX_NAME = "manufacturing-rag"
-FETCH_K = 10  # always pull at least this many candidates before reranking
 
-# Initialise once at module level so the model isn't reloaded on every call
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vectorstore = PineconeVectorStore(index_name=INDEX_NAME, embedding=embeddings)
+cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
 
-def rerank(question: str, chunks: list[dict], top_n: int) -> list[dict]:
-    question_words = set(question.lower().split())
-
-    overlap_scores = []
+def rerank(question: str, chunks: list[dict], n: int) -> list[dict]:
+    pairs = []
     for chunk in chunks:
-        chunk_words = set(chunk["content"].lower().split())
-        overlap = len(question_words & chunk_words)
-        overlap_scores.append(overlap)
+        pairs.append([question, chunk["content"]])
 
-    ranked = []
-    for _ in range(top_n):
-        if not overlap_scores:
-            break
-        best_idx = 0
-        for i in range(1, len(overlap_scores)):
-            if overlap_scores[i] > overlap_scores[best_idx]:
-                best_idx = i
-        ranked.append(chunks[best_idx])
-        overlap_scores.pop(best_idx)
-        chunks.pop(best_idx)
+    scores = cross_encoder.predict(pairs)
 
-    return ranked
+    for i in range(len(chunks)):
+        chunks[i]["score"] = round(float(scores[i]), 4)
+
+    for i in range(len(chunks)):
+        for j in range(i + 1, len(chunks)):
+            if chunks[j]["score"] > chunks[i]["score"]:
+                chunks[i], chunks[j] = chunks[j], chunks[i]
+
+    return chunks[:n]
 
 
-def retrieve(question: str, k: int = 10) -> list[dict]:
+def retrieve(question: str, k: int = 10, n: int = 5) -> list[dict]:
     """
     Embed the question, search Pinecone for the top-k most similar chunks,
-    and return each chunk with its content and source metadata.
+    rerank with a cross-encoder, and return the top n.
     """
-    fetch_k = max(k, FETCH_K)
-    results = vectorstore.similarity_search_with_score(question, k=fetch_k)
+    results = vectorstore.similarity_search_with_score(question, k=k)
 
     chunks = []
     for doc, score in results:
@@ -56,12 +49,12 @@ def retrieve(question: str, k: int = 10) -> list[dict]:
             }
         )
 
-    return rerank(question, chunks, top_n=k)
+    return rerank(question, chunks, n)
 
 
 if __name__ == "__main__":
     question = "What are the PPE requirements for manufacturing workers?"
-    results = retrieve(question, k=3)
+    results = retrieve(question, k=10, n=5)
 
     for i, chunk in enumerate(results, 1):
         print(f"\n--- Result {i} (score: {chunk['score']}) ---")
